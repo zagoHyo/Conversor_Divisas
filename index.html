@@ -20,34 +20,34 @@
             <div class="d-flex justify-content-center py-1"> 
                 <img src="https://acegif.com/wp-content/gifs/coin-flip-59.gif" alt="" height="100px" width="200px">
             </div>
-            <input type="number" class="py-2 form-control" placeholder="Introducir cantidad monetaria">
+            <input type="number" class="py-2 form-control" placeholder="Introducir cantidad monetaria" id="cantidad_monetaria" value=0>
             <div class="d-flex py-2">
                 <div class="col">
-                    <select name="" id="" class=" w-75 form-select">
+                    <select name="" id="opcion_1" class=" w-75 form-select">
                         <option value="0">Moneda</option>
-                        <option value="dolar">Dólar Estadounidense</option>
+                        <option value="Dolar">Dólar Estadounidense</option>
                         <option value="Euro">Euro</option>
                         <option value="PesoColombiano">Peso Colombiano</option>
                         <option value="PesoMexicano">Peso Mexicano</option>
                         <option value="PesoArgentino">Peso Argentino</option>
-                        <option value="yen">Yen</option>
+                        <option value="Yen">Yen</option>
                         <option value="libraEstarlina">Libra Estarlina</option>
                     </select>
                 </div>
                 <div class="col">
-                    <select name="" id="" class=" w-75 form-select">
+                    <select name="" id="opcion_2" class=" w-75 form-select">
                         <option value="0">Moneda</option>
-                        <option value="dolar">Dólar Estadounidense</option>
+                        <option value="Dolar">Dólar Estadounidense</option>
                         <option value="Euro">Euro</option>
                         <option value="PesoColombiano">Peso Colombiano</option>
                         <option value="PesoMexicano">Peso Mexicano</option>
                         <option value="PesoArgentino">Peso Argentino</option>
-                        <option value="yen">Yen</option>
+                        <option value="Yen">Yen</option>
                         <option value="libraEstarlina">Libra Estarlina</option>
                     </select> 
                 </div>
                 <div class="col-4">
-                    <button class="btn btn-success w-100">Valorar</button> 
+                    <button class="btn btn-success w-100" onclick="validacion()">Valorar</button> 
                 </div>
             </div>
         </div>
